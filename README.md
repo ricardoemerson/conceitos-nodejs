@@ -8,7 +8,12 @@
 
 <p align="center">
   <a href="#rocket-sobre-a-aplicação">Sobre a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#páginas-da-aplicação">Páginas da Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#conteúdo-abordado">Conteúdo Abordado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#executando-a-aplicação">Executando a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#executando-os-testes-da-aplicação">Executando os Testes da Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rotas-da-aplicação">Rotas da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#exemplos-de-uso-no-insomnia">Exemplos de Uso no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -16,9 +21,7 @@
 
 Essa é uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
 
-Abaixo segue todo o conteúdo que foi abordado no curso para o desenvolvimento da aplicação.
-
-## GoBarber web
+## Conteúdo Abordado
 
 - Conceitos NodeJS;
 - Conceitos API REST;
@@ -32,7 +35,7 @@ Abaixo segue todo o conteúdo que foi abordado no curso para o desenvolvimento d
 
 ## Instalação
 
-### Instalação das dependências do projeto.
+Instalação das dependências do projeto.
 
 ```sh
 # Com NPM
@@ -74,7 +77,7 @@ yarn test
 
 - `POST /repositories/:id/like`: A rota deve aumentar o número de likes do repositório específico escolhido através do id presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
 
-## Exemplo de Uso no Insomnia
+## Exemplos de Uso no Insomnia
 
 ### Criando um Repositórios
 
